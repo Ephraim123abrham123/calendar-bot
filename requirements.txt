@@ -5,17 +5,18 @@ fastapi==0.95.2
 uvicorn==0.22.0
 python-dotenv==1.0.0
 
-# Google Calendar
+# Google Calendar API
 google-api-python-client==2.86.0
 google-auth-oauthlib==1.0.0
 google-auth-httplib2==0.1.0
 
 # Voice Processing (Mac-compatible)
 SpeechRecognition==3.10.0
-sounddevice==0.4.6
+sounddevice==0.4.6  # Alternative to PyAudio
 pydub==0.25.1
+ffmpeg-python==0.2.0  # Required for pydub
 
-# Essentials
+# Supporting Libraries
 numpy==1.24.0
 requests==2.31.0
 
