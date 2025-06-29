@@ -1,21 +1,9 @@
 
-# Core Packages
 streamlit==1.28.0
 fastapi==0.95.2
-uvicorn==0.22.0
-python-dotenv==1.0.0
-
-# Google Calendar
-google-api-python-client==2.86.0
-google-auth-oauthlib==1.0.0
-google-auth-httplib2==0.1.0
-
-# Voice Processing (Mac-compatible)
 SpeechRecognition==3.10.0
 sounddevice==0.4.6
 pydub==0.25.1
-ffmpeg-python==0.2.0
-
-# Critical Fix - Python 3.11 compatible
-numpy==1.24.0  # Now safe with Python 3.11
+numpy==1.24.0
+google-api-python-client==2.86.0
 
