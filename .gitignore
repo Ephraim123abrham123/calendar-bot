@@ -1,0 +1,24 @@
+
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment files
+.env
+*.env
+
+# Large data files
+*.dylib
+*.so
+*.bin
+
+# IDE files (optional)
+.vscode/
+.idea/
+
+# macOS system files
+.DS_Store
+
